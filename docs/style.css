@@ -822,6 +822,12 @@ h4 {
 {
     width: 100%;
 }
+
+.btn-retour
+{
+    justify-content: center;
+    display: flex;
+}
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;

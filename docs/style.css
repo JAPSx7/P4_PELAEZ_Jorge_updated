@@ -272,6 +272,8 @@ a:hover {
 
 .voffset-lg {
     margin-top: 80px;
+    justify-content: center;
+    display: flex;
 }
 
 .row-no-gutters {
@@ -690,7 +692,7 @@ p {
     font-weight: 700;
 }
 
-.social {
+.social{
     max-width: 400px;
     margin: auto auto auto auto;
 }
@@ -828,6 +830,12 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+}
+
+.quote-text
+{
+    width: 70%;
+    text-align: center;
 }
 
 @media (max-width: 992px) and (min-width: 768px) {
@@ -1012,7 +1020,15 @@ h4 {
         width: 180px;
         height: 320px;
     }
+
+    .social{
+        flex-direction: row;
+        display: flex;
+        justify-content: space-between;
+    }
 }
+
+
 
 @media (max-width: 400px) {
     .bloc {

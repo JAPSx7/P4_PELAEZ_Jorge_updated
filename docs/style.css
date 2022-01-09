@@ -478,6 +478,7 @@ button {
     border-bottom-color: rgba(0, 0, 0, .1);
     text-shadow: 0 1px 0 rgba(0, 0, 1, .1);
     box-shadow: 0 1px 3px rgba(0, 0, 1, .25), inset 0 1px 0 0 rgba(255, 255, 255, .15);
+    text-decoration: none;
 }
 
 .icon-md {
@@ -846,6 +847,7 @@ h4 {
 {
     justify-content: center;
     display: flex;
+    
 }
 @media (max-width: 1024px) {
     .bloc {

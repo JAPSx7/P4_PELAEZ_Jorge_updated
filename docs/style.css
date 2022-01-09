@@ -52,7 +52,7 @@ a:hover {
 }
 
 .bloc-md {
-    padding: 50px;
+    padding: 0px;
 }
 
 .bloc-sm {
@@ -749,7 +749,7 @@ h4 {
 }
 
 .white {
-    color: #000000!important;
+    color: #302c2c!important;
 }
 
 .portfolio-thumb {
@@ -788,7 +788,7 @@ h4 {
 }
 
 .tc-white {
-    color: black!important;
+    color: #4b4343!important;
 }
 
 .btn-atomic-tangerine {
